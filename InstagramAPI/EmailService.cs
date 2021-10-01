@@ -9,7 +9,7 @@ namespace SocialApp.Services
         {
             var emailMessage = new MimeMessage();
 
-            emailMessage.From.Add(new MailboxAddress("Администрация сайта", "randevu1007@mail.ru"));
+            emailMessage.From.Add(new MailboxAddress("ГЂГ¤Г¬ГЁГ­ГЁГ±ГІГ°Г Г¶ГЁГї Г±Г Г©ГІГ ", "randevu1007@mail.ru"));
             emailMessage.To.Add(new MailboxAddress("", email));
             emailMessage.Subject = subject;
             emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html)
@@ -20,7 +20,7 @@ namespace SocialApp.Services
             using (var client = new SmtpClient())
             {
             await client.ConnectAsync("smtp.mail.ru", 25, false);
-            await client.AuthenticateAsync("randevu1007@mail.ru", "samigulov720%");
+            await client.AuthenticateAsync("randevu1007@mail.ru", "password");
             await client.SendAsync(emailMessage);
             await client.DisconnectAsync(true);
 
