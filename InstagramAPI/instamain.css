@@ -1,0 +1,271 @@
+.separated {
+    display: grid;
+    grid-template-rows: 10% 63.5% 13.25% 13.25%;
+    grid-template-columns: 100%;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+#header {
+   
+}
+#mainbody {
+     display: grid;
+     grid-template-columns: 1fr 454px 350px 1fr;
+
+}
+.content {
+    background: url(https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png) no-repeat;
+    background-size: 454px 618px;
+    flex-basis: 454px;
+    height: 618px;
+    margin-left: -18px;
+    margin-right: -15px;
+    margin-top: -5px;
+    width:454px;
+}
+
+.content2 {
+    margin-left: -33px;
+    margin-right: -15px;
+    padding-top: 27px;
+    width: 352px;
+}
+
+
+#form1 {
+    display: block;
+    text-align: center;
+    height: 255px;
+    width: 348px;
+    background-color: #fff;
+    align-content: center;
+    border: 1px solid #dbdbdb;
+}
+
+#instimg {
+    margin-top: -12px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+#form2 {
+    display: block;
+    text-align: center;
+    height: 130px;
+    width: 348px;
+    background-color: #fff;
+    align-content: center;
+    margin-top: -24px;
+    border: 1px solid #dbdbdb;
+    border-top: none;
+}
+
+#form3 {
+    height: 59px;
+    width: 348px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    margin-top: -5px;
+    display:flex;
+    justify-content:center;
+    font-size: 15px;
+
+}
+#form4 {
+    height: 102px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+#reg {
+    padding-top: 23px;
+}
+
+#registr {
+    text-decoration: none;
+    color: #0095f8;
+    font-weight: 600;
+    margin-left: 3px;
+    padding-top: 23px;
+}
+
+input {
+
+    height: 38px;
+    width: 268px;
+}
+form p {
+    padding-top: 20px;
+}
+.form-label {
+    position: absolute;
+    pointer-events: none;
+    left: 8px;
+    right: 10px;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 40px;
+    transition: .3s;
+    margin-top: 5px;
+    font-size: 13.3px;
+    color: #888888;
+    padding-left: -6px;
+    font-weight: 400;
+    font-family: Calibri;
+}
+.form-input:focus ~ .form-label,
+.form-input:not(:focus):valid ~ .form-label {
+    top: -10px;
+    font-size: 10px;
+}
+.form-item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    position: relative;
+    padding-top: 5px;
+}
+.form-input {
+    border: 1px solid #dbdbdb;
+    width: 268px;
+    height: 38px;
+    padding: 5px 15px;
+    background-color: #fafafa;
+}
+
+#butt {
+    font-weight: 700;
+    font-family: Arial;
+    color: white;
+    background: #b2dffc;
+    width: 268px;
+    height: 30px;
+    border: 0px;
+    border-radius: 4px;
+}
+
+#butt:hover {
+    cursor: pointer;
+}
+
+.line {
+    margin-left: 39px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-top: 9px;
+    width: 268px;
+}
+
+#or {
+    text-align: center;
+    font-size: 19px;
+    color: #909090;
+    font-family: Calibri;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: -12px;
+    background-color: #fff;
+    width: 64px;
+}
+#buttface {
+    border: 0px;
+    background: #fff;
+    margin-top: -12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #37547d;
+    margin-left: -5px;
+}
+#buttface:hover{
+    cursor: pointer;
+}
+
+
+#appbutt {
+    width: 134px;
+    height: 40px;
+}
+#text {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#appbutts {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#fb {
+    padding-top: 35px;
+
+}
+#reset {
+    text-decoration: none;
+    color: #37547d;
+    font-size: 13px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+}
+#images {
+    padding-left: 151px;
+    padding-top: 99px;
+    align-self: end;
+}
+.pic {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
